@@ -1095,16 +1095,6 @@ body._lock {
   color: #333;
 }
 
-@media (max-width: 75em) {
-  .card-main__services {
-    font-size: 1rem;
-  }
-
-  .card-main__value {
-    font-size: 1.125rem;
-  }
-}
-
 @media (max-width: 45em) {
   .main__container {
     padding-top: 20vh;
@@ -1387,11 +1377,11 @@ body._lock {
   }
 
   .card-main__services {
-    font-size: calc(1rem + 2 * (100vw - 75rem) / 126);
+    font-size: calc(1rem + 2 * (100vw - 68.75rem) / 226);
   }
 
   .card-main__value {
-    font-size: calc(1.125rem + 6 * (100vw - 75rem) / 126);
+    font-size: calc(1.125rem + 6 * (100vw - 68.75rem) / 226);
   }
 
   .advantages {
@@ -1563,6 +1553,14 @@ body._lock {
 
   .menu__link {
     font-size: 1.75rem;
+  }
+
+  .card-main__services {
+    font-size: 1rem;
+  }
+
+  .card-main__value {
+    font-size: 1.125rem;
   }
 }
 
